@@ -7,5 +7,5 @@ pipeline:
     image: plugins/docker
     repo: axelmoussard/webpagesurv-api
     tags: [ latest ]
-    username: amoussard
+    username: axelmoussard
     password: moabistudio
