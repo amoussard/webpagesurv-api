@@ -1,0 +1,11 @@
+pipeline:
+  build:
+    image: node:latest
+    commands:
+      - npm install
+  publish:
+    image: plugins/docker
+    repo: axelmoussard/webpagesurv-api
+    tags: [ latest ]
+    username: amoussard
+    password: moabistudio
