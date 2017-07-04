@@ -34,7 +34,7 @@ app.use(function (req, res, next) {
     next();
 });
 
-app.use('/watch', watch);
+app.use('/api/watch', watch);
 
 // catch 404 and forward to error handler
 // app.use(function (err, req, res, next) {
